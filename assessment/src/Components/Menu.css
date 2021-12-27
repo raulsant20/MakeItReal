@@ -1,0 +1,37 @@
+.Menu,
+.Menu__home,
+.Menu__about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  /* background-color: #333; */
+}
+
+.Menu {
+  width: 100vw;
+}
+
+.Menu__home,
+.Menu__about {
+  width: 80px;
+  height: 30px;
+  background-color: #333;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .Menu__home,
+.Menu__about {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+} */

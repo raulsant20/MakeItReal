@@ -1,0 +1,7 @@
+.Products__cards {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}

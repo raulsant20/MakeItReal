@@ -1,0 +1,38 @@
+.ProductCard {
+  width: 400px;
+  height: 300px;
+  background-color: #333;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.ProductCard__image {
+  width: 150px;
+  height: 175px;
+  background-color: #fff;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.ProductCard__bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ProductCard__bottom-span {
+  width: 4ch;
+}
